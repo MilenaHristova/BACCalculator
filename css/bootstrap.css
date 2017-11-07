@@ -1969,11 +1969,6 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
   text-decoration: none;
 }
 
-.btn:focus, .btn.focus {
-  outline: 0;
-  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25);
-}
-
 .btn.disabled, .btn:disabled {
   opacity: .65;
 }
@@ -1987,28 +1982,7 @@ fieldset[disabled] a.btn {
   pointer-events: none;
 }
 
-.btn-primary {
-  color: #fff;
-  background-color: #ff3b3f;
-  border-color: #ff3b3f;
-}
-
-.btn-primary:hover {
-  color: #fff;
-  background-color: #f77676;
-  border-color: #f77676;
-}
-
-.btn-primary:focus, .btn-primary.focus {
-  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5);
-}
-
-.btn-primary.disabled, .btn-primary:disabled {
-  background-color: #007bff;
-  border-color: #007bff;
-}
-
-.btn-primary:active, .btn-primary.active,
+.btn-primary.active,
 .show > .btn-primary.dropdown-toggle {
   background-color: #ff3b3f;
   background-image: none;

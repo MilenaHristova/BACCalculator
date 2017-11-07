@@ -1,3 +1,7 @@
+body{
+  background-color: #efefef;
+}
+
 img-responsive {
     outline: none;
     margin: inherit;
@@ -31,26 +35,25 @@ text {
   margin-left: 140px;
 }
 
-.btn-primary{
-background-color: #ff3b3f
-}
-
 .btn-xl{
   padding: 1rem 1rem;
   font-size: 3rem;
   width: 60%;
   line-height: 1.5;
   border-radius: 0.3rem;
-  margin-top: 0 auto; 
+  margin-top: 25%;
   position:relative;
   margin-left:20%;
 }
 
-.col-md-4{
-background-color: #efefef;
-}
-
-.navbar{
+.bg-light{
 background-color: #caebf2;
 }
 
+.text{
+  text-align: center;
+}
+
+.text-box{
+  margin-top: 5%;
+}

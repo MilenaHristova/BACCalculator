@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="css/colors.css">
+    <link rel="stylesheet" href="css/calculatorPage.css">
+    <title>Title</title>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html">BAC Calculator</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="calculatePage.html">Calculate</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="information.html">Information</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+    
+<div class="row">
+    <div class="col-md-4">
+        <img src="images/jack_daniels.jpg" class="img-responsive" width="100%" height="100%">
+    </div>
+    <div class="col-4">
+        <h1 class="text">Calculator</h1>
+        <div class="container">
+            <form class="form-horizontal" id="form1" action="result.html" method="get">
+                <div class="form-group row">
+                    <label for="gender" class="col-6 col-form-label">Gender</label>
+                    <div class="col-6">
+                    <select class="form-control" id="gender">
+                       <option>Male</option>
+                       <option>Female</option>
+                    </select>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="weight" class="col-6 col-form-label">Weight</label>
+                    <div class="col-6">
+                        <input class="form-control" type="number" value="30" id="weight">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="beverage" class="col-6 col-form-label">Select your beverage</label>
+                    <div class="col-6">
+                    <select class="form-control" id="beverage">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="numberOfBeverages" class="col-6 col-form-label">Enter the number of beverages</label>
+                    <div class="col-6">
+                        <input class="form-control" type="number" value="0" id="numberOfBeverages">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="time" class="col-6 col-form-label">Amount of time since started drinking</label>
+                    <div class="col-6">
+                        <input class="form-control" type="number" value="0" id="time">
+                    </div>
+                </div>
+
+
+                    <div class="form-group">
+                        <div class="col-sm-offset-2 col-sm-10">
+                            <button type="submit" class="btn btn-default" onclick="Calculate();">Submit</button>
+                        </div>
+                    </div>
+                <input type="hidden" name="result" id="result"/>
+            </form>
+
+
+        </div>
+    </div>
+<div class="col-md-4">
+    <img src="images/jack_daniels.jpg" class="img-responsive" width="100%" height="100%">
+</div>
+</div>
+<script src="./js/jquery-3.2.1.js"></script>
+<script src="./js/bootstrap.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+<script src="./js/calculate.js"></script>
+</body>
+</html>

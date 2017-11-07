@@ -1,0 +1,36 @@
+.btn-primary{
+    color: #fff;
+    background-color: #76323f
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #f77676;
+    border-color: #f77676;
+}
+
+.btn-primary:focus, .btn-primary.focus {
+    box-shadow: white;
+    outline: white;
+}
+
+.btn-primary.disabled, .btn-primary:disabled {
+    background-color: #f77676;
+    border-color: #f77676;
+}
+
+.btn-primary:active{
+    background-color: #76323f;
+    background-image: none;
+    border-color: #76323f;
+    box-shadow: black;
+    outline: black;
+}
+
+.active{
+    background-color: #f77676;
+}
+
+.colon-centered{
+    background-color: rgba(255,255,0,0.2);
+}

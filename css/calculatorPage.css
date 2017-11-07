@@ -1,0 +1,19 @@
+.text{
+    text-align: center;
+    padding-top: 5%;
+}
+
+.btn-default{
+    position: relative;
+    margin-top: auto;
+    width:30%;
+    margin-left: 35%;
+}
+
+.container{
+    padding-top: 5%;
+}
+
+.radio-inline{
+    margin: auto;
+}
