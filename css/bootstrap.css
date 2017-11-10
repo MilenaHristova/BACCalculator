@@ -1986,7 +1986,7 @@ fieldset[disabled] a.btn {
 .show > .btn-primary.dropdown-toggle {
   background-color: #ff3b3f;
   background-image: none;
-  border-color: #ff3b3f;
+  border-color: none;
 }
 
 .btn-secondary {

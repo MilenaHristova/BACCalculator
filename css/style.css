@@ -19,7 +19,7 @@ text {
 }
 
 .navbar-fixed-left .navbar-nav > li {
-  float: none;  /* Cancel default li float: left */
+  float: none;  
   width: 139px;
 }
 
@@ -45,7 +45,11 @@ text {
   position:relative;
   margin-left:20%;
 }
-
+.btn-xl:hover{
+   border-radius: 0.3rem;
+   outline: none;
+   
+}
 .bg-light{
 background-color: #caebf2;
 }
@@ -56,4 +60,11 @@ background-color: #caebf2;
 
 .text-box{
   margin-top: 5%;
+}
+
+.image-link{
+  width = "100";
+  height = "100";
+  margin-top: 40%;
+  margin-left: 10%;
 }
