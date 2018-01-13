@@ -2,13 +2,17 @@ body{
   background-color: #efefef;
 }
 
-img-responsive {
+.img-responsive {
     outline: none;
     margin: inherit;
 }
 
 text {
     margin-top: 1rem;
+}
+
+.text-box{
+  margin-top: 10%;
 }
 
 .navbar-fixed-left {
@@ -58,13 +62,20 @@ background-color: #caebf2;
   text-align: center;
 }
 
-.text-box{
-  margin-top: 5%;
-}
-
 .image-link{
-  width = "100";
-  height = "100";
   margin-top: 40%;
   margin-left: 10%;
 }
+
+.links{
+  margin-top: 10%;
+  margin-left: 5%;
+}
+
+.colon-centered{
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+

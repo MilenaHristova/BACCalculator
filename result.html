@@ -5,25 +5,28 @@
     <link rel="stylesheet" href="./css/bootstrap.css">
     <link rel="stylesheet" href="./css/resultPage.css">
     <link rel="stylesheet" href="css/colors.css">
-    <title>Title</title>
+    <title>Result</title>
 </head>
 <body onload="showResult();">
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="index.html">Navbar</a>
+    <a class="navbar-brand" href="index.html">BAC Calculator</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="calculatePage.html">Link</a>
+                <a class="nav-link" href="calculatePage.html">Calculate</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Disabled</a>
+                <a class="nav-link" href="information.html">BAC Levels</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="links.html">More Information</a>
             </li>
         </ul>
     </div>
@@ -33,35 +36,19 @@
 <div class="row">
     <div class="colon-centered">
         <div class="text-center">
-            Here are your results:
+            Your blood alcohol content is:
             <br>
-            <output id='result1'/>
+            <b><output id='result1'/></b>
         </div>
+        <br>
 		<div>
-		The effects of alcohol intoxication are greatly influenced by individual variations among users. Some users may become intoxicated at a much lower Blood Alcohol Concentration (BAC) level than is shown.<br>
-		
-        <b>0.02-0.03 BAC</b>: No loss of coordination, slight euphoria and loss of shyness. Depressant effects are not apparent. Mildly relaxed and maybe a little lightheaded.<br>
-
-        0.04-0.06 BAC: Feeling of well-being, relaxation, lower inhibitions, sensation of warmth. Euphoria. Some minor impairment of reasoning and memory, lowering of caution. Your behavior may become exaggerated and emotions intensified (Good emotions are better, bad emotions are worse)<br>
-
-        0.07-0.09 BAC: Slight impairment of balance, speech, vision, reaction time, and hearing. Euphoria. Judgment and self-control are reduced, and caution, reason and memory are impaired, .08 is legally impaired and it is illegal to drive at this level. You will probably believe that you are functioning better than you really are.<br>
-
-        0.10-0.125 BAC: Significant impairment of motor coordination and loss of good judgment. Speech may be slurred; balance, vision, reaction time and hearing will be impaired. Euphoria.<br>
-
-        0.13-0.15 BAC: Gross motor impairment and lack of physical control. Blurred vision and major loss of balance. Euphoria is reduced and dysphoria (anxiety, restlessness) is beginning to appear. Judgment and perception are severely impaired.<br>
-
-        0.16-0.19 BAC: Dysphoria predominates, nausea may appear. The drinker has the appearance of a "sloppy drunk."<br>
-
-        0.20 BAC: Felling dazed, confused or otherwise disoriented. May need help to stand or walk. If you injure yourself you may not feel the pain. Some people experience nausea and vomiting at this level. The gag reflex is impaired and you can choke if you do vomit. Blackouts are likely at this level so you may not remember what has happened.<br>
-
-        0.25 BAC: All mental, physical and sensory functions are severely impaired. Increased risk of asphyxiation from choking on vomit and of seriously injuring yourself by falls or other accidents.<br>
-
-        0.30 BAC: STUPOR. You have little comprehension of where you are. You may pass out suddenly and be difficult to awaken.<br>
-
-        0.35 BAC: Coma is possible. This is the level of surgical anesthesia. <br>
-
-        0.40 BAC and up: Onset of coma, and possible death due to respiratory arrest.<br>
+            <output id="info"/>
 		</div>
+        <br>
+        <div class="text-center">
+            <a type="button" href="information.html">More Information</a>
+        </div>
+
     </div>
 </div>
 <script src="js/showResult.js"></script>
